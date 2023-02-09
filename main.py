@@ -53,7 +53,7 @@ with header:
 
 with data_loading:
 	st.subheader('Data Loading and Exploration')
-	df = pd.read_csv(r"D:\Open Classroom\Datasets\Netflix\netflix_titles.csv")
+	df = pd.read_csv(r"netflix_titles.csv")
 	
 	st.write(df.head())
 
